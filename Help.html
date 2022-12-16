@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <!--Montserrat-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--Material fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=icons" rel="stylesheet">
+
+    <!-- Load external CSS styles -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="grid-container">
+
+       <!--Header-->
+       <header class="header">
+        <div class="menu-icon" >
+            <span class="icons" onclick="openSidebar()"><img class="user" src="./Pics/menu.png"></span>
+        </div>
+        <div class="header-left">
+            <span class="icons"><img class="home" src="./Pics/search.png" class="title"></span>
+        </div>
+        <div class="header-right">
+            <span class="icons"><img class="home" src="./Pics/notifications.png" class="title"></span>
+            <span class="icons"><img class="home" src="./Pics/email.png" class="title"></span>
+            <span class="icons"><img class="home" src="./Pics/account.png" class="title"></span>
+        </div>
+    </header>
+    
+        <!--Sidebar-->
+            <aside id="sidebar">
+                <div class="sidebar-title">
+                    <div class="sideebar-brand">
+                        <h2><b style="color: rgb(240, 148, 63);"> IT Assessment</b></h2>
+                        <span class="icons" onclick="closeSidebar()"></span>
+                
+                    </div>
+                </div>
+    
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <span class="icons"><img class="home" src="./Pics/home.png" class="title"><button onclick="location.href='Main.html'"><b>Home</b></button> </class=> </span> 
+                    </li>
+                    
+                    <li class="sidebar-list-item">
+                        <span class="icons"><img class="ISO" src="./Pics/iso.webp" class="title"><button onclick="location.href='ISO.html'"><b>ISO Standards</b></button> </class=></span> 
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="icons"><img class="Questions" src="./Pics/question.png" class="title"><button onclick="location.href='Questions.html'"><b>Questions</b></button> </class=></span> 
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="icons"><img class="Help" src="./Pics/help.png" class="title"><button><b>Help</b></button> </class=></span> 
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="icons"><img class="Settings" src="./Pics/settings.webp" class="title"><button onclick="location.href='settings.html'"><b>Settings</b></button> </class=></span> 
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="icons"><img class="logout" src="./Pics/logging-out.png" class="title"><button onclick="location.href='Login.html'"><b>Logout</b></button> </class=></span> 
+                    </li>
+                </ul>
+            </aside>
+                
+    
+        <!--Main-->
+            <main class="main-container">
+            <h2>Help</h2>
+            <ul>
+                
+                <li>This website is designed to meet accessibility and usability guidelines.</li>
+
+                <li>We are constantly updating the Online Service, this may mean that sometimes you have to refresh your page or clear your computer cache to see the pages properly.</li>
+
+                <h4>To refresh your page</h4>
+                    <br>
+                Microsoft Edge users:<br>
+                <li>press the F5 button on the keyboard or click on the 'refresh' icon on your toolbar a couple of times.</li>
+                   <br>
+                Firefox, Chrome and Safari users:
+                <li>click on the 'reload current page' icon.
+                    <br>
+                    These will reload the web page with the latest version from the website.</li>
+
+                <h4>Clearing your cache</h4>
+                    <br>
+                <li>If the page is still not displaying properly, you will need to clear your cache:</li>
+                
+                <li>
+                Microsoft Edge users:
+                    <br>
+                1. Select Settings and more (the icon that looks like three dots).
+                    <br>
+                2. In the Settings sidebar, select Privacy and services.
+                    <br>
+                3. Under Clear browsing data, select Choose what to clear.
+                    <br>
+                4. In Clear browsing data, select the check box for each type of data, such as browsing history, cookies, and passwords, you want to clear from the cache.
+                    <br>    
+                5. From the Time range list, select how far back Microsoft Edge should empty the cache (for example, everything for the past hour, for the past seven days, or for all time).
+                    <br>
+                6. Select Clear now.</li>
+                    <br>
+                Firefox users
+                    <br>
+                <li>go to File/Preferences/Privacy/Cache/ and select 'Clear cache now'.</li>
+                
+                Safari users
+
+                <li>go to Safari/Empty cache.</li>
+
+                These will refresh your computer's cache of websites visited and reload the new pages correctly.
+
+                To aid your navigation of the site, please see our ​site map.
+                </ul>
+
+                <h2>How to contact us</h2>
+                <li>One of the most important ways we can improve our service is by listening to your feedback and responding to your queries or complaints. Please contact us via the appropriate mailbox or phone number listed below.</li>
+
+                <h4>General enquiries</h4>
+                <li>To make a general enquiry or contact a team.</li>
+                <br>
+                Phone: xxxxxxxxxx<br>
+                Email: enquiries@assessment.com
+                <br>
+                <h4>Media enquiries</h4>
+                <li>To know more the details of our media. Please contact media enquiries by:</li>
+                <br>
+                Email: mediaenquiries@assessment.com<br>
+                Phone: xxxxxxxxxx
+            </main>
+        <!--Custom JS-->
+        <script src="Main.js"></script>
+        </div>    
+</body>
+</html>

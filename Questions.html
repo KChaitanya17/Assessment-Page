@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <!--Montserrat-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--Material fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=icons" rel="stylesheet">
+
+    <!-- Load external CSS styles -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="grid-container">
+
+        <!--Header-->
+        <header class="header">
+            <div class="menu-icon" >
+                <span class="icons" onclick="openSidebar()"><img class="user" src="./Pics/menu.png"></span>
+            </div>
+            <div class="header-left">
+                <span class="icons"><img class="home" src="./Pics/search.png" class="title"></span>
+            </div>
+            <div class="header-right">
+                <span class="icons"><img class="home" src="./Pics/notifications.png" class="title"></span>
+                <span class="icons"><img class="home" src="./Pics/email.png" class="title"></span>
+                <span class="icons"><img class="home" src="./Pics/account.png" class="title"></span>
+            </div>
+        </header>
+    
+        <!--Sidebar-->
+            <aside id="sidebar">
+                <div class="sidebar-title">
+                    <div class="sideebar-brand">
+                        <h2><b style="color: rgb(240, 148, 63);"> IT Assessment</b></h2>
+                    </div>
+
+                    <span class="icons" onclick="closeSidebar()"></span>
+
+                </div>
+    
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <span class="icons"><img class="home" src="./Pics/home.png" class="title"><button onclick="location.href='Main.html'"><b>Home</b></button> </class=> </span> 
+                    </li>
+                    
+                    <li class="sidebar-list-item">
+                        <span class="icons"><img class="ISO" src="./Pics/iso.webp" class="title"><button onclick="location.href='ISO.html'"><b>ISO Standards</b></button> </class=></span> 
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="icons"><img class="Questions" src="./Pics/question.png" class="title"><button><b>Questions</b></button> </class=></span> 
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="icons"><img class="Help" src="./Pics/help.png" class="title"><button onclick="location.href='Help.html'"><b>Help</b></button> </class=></span> 
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="icons"><img class="Settings" src="./Pics/settings.webp" class="title"><button onclick="location.href='settings.html'"><b>Settings</b></button> </class=></span> 
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="icons"><img class="logout" src="./Pics/logging-out.png" class="title"><button onclick="location.href='Login.html'"><b>Logout</b></button> </class=></span> 
+                    </li>
+                </ul>
+            </aside>
+                
+    
+        <!--Main-->
+            <main class="main-container">
+                <h2>Aptitude Questionnaire</h2>
+                <ul>
+                <li>1) What is the average of first five multiples of 12?</li>
+                    <p> a.36    b.38    c.40    d.42</p>
+                <br>
+                <li>2) Average of five numbers is 20. If each number is multiplied by 2, what will be the new average?</li>
+                    <p> a.30   b.40    c.50    d.60</p>
+                <br>
+                <li>3) If the average of three consecutive even numbers is 34, find the largest of these numbers.</li>
+                    <p> a.30   b.32    c.34    d.36</p>
+                <br>
+                <li>4) 10 typists can type 600 pages in 8 hours.Find the average number of pages typed by each typist in an hour.</li>
+                    <p> a.37 pages   b.7.5 pages   c.8 pages    d.85 pages</p>
+                <li>5) What is the average of first five natural numbers?</li>
+
+                    <p> a.5    b.2     c.3    d.4</p>
+                <br>
+                <li>6) If the sum is 240 and average is 40, find the number of quantities.</li>
+                    <p> a.5    b.8     c.5    d.6</p>
+                <br>
+                <li>7) If the average of 20 numbers is zero, how many numbers may be greater than zero?</li>
+                    <p> a.19   b.49    c.17    d.33</p>
+                  <br>
+                <li>8) The average of square of first 6 consecutive even numbers is:</li>
+                    <p> a.12.20   b.60.66   c.16.45    d.178</p>
+                <br>
+                <li>9) Find the average of first 4 consecutive even numbers.</li>
+                    <p> a.2    b.5     c.1    d.8</p>
+                <br>
+                <li>10) Find the average of square of first 5 consecutive natural numbers.</li>
+                    <p> a.12   b.10    c.16    d.11</p>
+                </ul>
+             </main>
+            </main>
+        <!--Custom JS-->
+        <script src="Main.js"></script>
+        </div>    
+</body>
+</html>

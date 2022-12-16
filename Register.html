@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment and Login Form</title>
+    <link rel="stylesheet" href="./Register.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+
+     <!--Nav bar-->
+     <nav class="navbar navbar-expand-lg bg-grey" style="height: 40px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: rgb(255, 208, 0);";><b>ASSESSMENT</b></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="height: 30px; padding-top: 0px; margin-top: 0px;">
+
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            <br>
+            <button type="submit" class="btn" onclick="location.href='Login.html'" style="color: #f5cc00;"><b>SignIn</b></button>
+        </div>
+      </div>
+    </nav>
+    
+<main>
+  <form class="form-inline" action="" method="" onsubmit="return false;" >
+    <img class="login-logo" src="./Pics/Logo.png" >
+    <h2><b>SIGNUP</b></h2>
+    
+    <div>
+        <label for="username">Username</label>
+        <input type="text" name="" id="username" style="margin-left: 60px;" placeholder="username">
+        <p><small id="username_errorMsg"></small></p>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="text" name="" id="email" style="margin-left: 90px;" placeholder="Email">
+        <p><small id="email_errorMsg"></small></p>
+    </div>
+    <div>
+        <label for="pw1">Create Password</label>
+        <input type="password" name="" id="pw1" style="margin-left: 15px;" placeholder="password">
+        <p><small id="pw1_errorMsg"></small></p>
+        <p><small id="message1"></small></p>
+        <p><small id="message1"></small></p>
+    </div>
+    <div>
+        <label for="pw2">Confirm Password</label>
+        <input type="password" name="" id="pw2" style="margin-left: 5px;" placeholder="confirm password">
+        <p><small id="pw2_errorMsg"></small></p>
+        <p><small id="message2"></small></p>
+    </div>
+    <div id="wthree-text">
+            <input type="checkbox" id="checkbox">
+            <label id="anim">I Agree To The Terms & Conditions</label>
+            <p><small id="checkbox_errormsg"></small></p>
+        <div id="clear"> </div>
+    </div>
+    <button id="loginBtn" style="border-radius: 10px; margin-left: 150px;" >Submit</button>
+    <p style="margin-left: 30px; color: rgb(25, 0, 252);">Have an Account? <a href="#" style="color: rgb(0, 0, 0);" class="btn" onclick="location.href='Login.html'"><b>Login Now!</b></a></p>
+</form>
+    <script src="./Register.js"></script>
+</main> 
+</body>
+</html>

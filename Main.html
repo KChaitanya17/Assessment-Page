@@ -1,0 +1,97 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title> Admin Dashboard</title>
+        
+    <!--Montserrat-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--Material fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=icons" rel="stylesheet">
+
+    <!-- Load external CSS styles -->
+    <link rel="stylesheet" href="main.css">
+
+    </head>
+
+    <body>
+     
+    <div class="grid-container">
+
+    <!--Header-->
+        <header class="header">
+            <div class="menu-icon" >
+                <span class="icons" onclick="openSidebar()"><img class="user" src="./Pics/menu.png"></span>
+            </div>
+            <div class="header-left">
+                <span class="icons"><img class="home" src="./Pics/search.png" class="title"></span>
+            </div>
+            <div class="header-right">
+                
+                <span class="icons"><img class="home" src="./Pics/FAQs.png" class="title"></span> 
+                <span class="icons"><img class="home" src="./Pics/notifications.png" class="title"></span>
+                <span class="icons"><img class="home" src="./Pics/email.png" class="title"></span>
+                <span class="icons"><img class="home" src="./Pics/account.png" class="title"></span>
+            </div>
+        </header>
+
+    <!--Sidebar-->
+        <aside id="sidebar">
+            <div class="sidebar-title">
+                <div class="sidebar-brand">
+                    <h2><b style="color: rgb(240, 148, 63);"> IT Assessment</b></h2>
+                    <span class="icons" onclick="closeSidebar()"></span>
+                </div>
+                
+            </div>
+
+            <ul class="sidebar-list">
+                <li class="sidebar-list-item">
+                    <span class="icons"><img class="home" src="./Pics/home.png" class="title"><button onclick="location.href='Main.html'"><b>Home</b></button> </class=> </span> 
+                </li>
+                
+                <li class="sidebar-list-item">
+                    <span class="icons"><img class="ISO" src="./Pics/iso.webp" class="title"><button onclick="location.href='iso.html'"><b>ISO Standards</b></button> </class=></span> 
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="icons"><img class="Questions" src="./Pics/question.png" class="title"><button onclick="location.href='Questions.html'"><b>Questions</b></button> </class=></span> 
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="icons"><img class="Help" src="./Pics/help.png" class="title"><button onclick="location.href='Help.html'"><b>Help</b></button> </class=></span> 
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="icons"><img class="Settings" src="./Pics/settings.webp" class="title"><button onclick="location.href='Settings.html'"><b>Settings</b></button> </class=></span> 
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="icons"><img class="logout" src="./Pics/logging-out.png" class="title"><button onclick="location.href='logout.html'"><b>Logout</b></button> </class=></span> 
+                </li>
+                
+            </ul>
+        </aside>
+            
+
+    <!--Main-->
+        <main class="main-container">
+            <section>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque fugiat, suscipit eaque tempore explicabo, magni iste vero ad voluptatem voluptate vitae natus eius consequuntur eveniet nemo, nisi inventore beatae numquam!
+            </section>
+            <br>
+            <section>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, eum quo modi animi repudiandae nihil quibusdam sint sunt labore et vitae deleniti reiciendis earum nobis ut? Tenetur iste nihil laboriosam!. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae consequatur omnis labore aliquid magnam ab sequi quibusdam suscipit harum consequuntur dolore modi laborum, corporis, neque perferendis est. Ea, unde dolorum?
+            </section>
+            <br>
+            <img style="padding-left: 100px; height: 800px; width: 900px;" src="./ASG.jpg">
+            <br>
+            <section>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum nulla ipsum quis! At natus nulla corporis cupiditate laudantium suscipit fuga est placeat quaerat nesciunt, eum, similique voluptate. Distinctio, molestiae corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odio ad cum quo? Eius impedit ipsum corporis veniam quia molestiae laboriosam, modi, tempore consequuntur adipisci reprehenderit temporibus aliquam officiis vitae.
+            </section>
+        </main>
+    <!--Custom JS-->
+    <script src="Main.js"></script>
+    </div>
+    </body>
+
+</html>
